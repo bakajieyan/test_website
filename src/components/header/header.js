@@ -10,7 +10,7 @@ import {
   FiHome,
   FiPackage,
   FiDollarSign,
-  FiInbox,
+  FiInfo,
   FiZap,
 } from "react-icons/fi";
 
@@ -20,18 +20,19 @@ export default function Header({ className }) {
       <Container sx={styles.container}>
         <Logo src={LogoDark} />
         <Flex as="nav" sx={styles.nav}>
-          <Link to="">
-            <FiHome />
-          </Link>
-          <Link to="">
-            <FiPackage />
-          </Link>
-          <Link to="">
-            <FiDollarSign />
-          </Link>
-          <Link to="">
-            <FiInbox />
-          </Link>
+          {menuItems.map((menuItem, i) => (
+              <Link
+                activeClass="active"
+                to={menuItem.path}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                key={i}
+              >
+                {menuItem.icon}
+              </Link>
+            ))}
         </Flex>
         <Button
           className="donate__btn"
@@ -40,6 +41,7 @@ export default function Header({ className }) {
         >
           <FiZap />
         </Button>
+        <MobileDrawer/>
       </Container>
     </header>
   );
