@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 
-const Rating = () => {
+const Rating = ({rating}) => {
   return (
     <h1>Rating</h1>
   );
