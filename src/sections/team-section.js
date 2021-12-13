@@ -179,7 +179,7 @@ const data = [
 
 export default function TeamSection() {
     return (
-        <section sx={styles.workflow}>
+        <section sx={styles.workflow} id="team">
             <Container>
                 <SectionHeader
                     slogan="The Team"

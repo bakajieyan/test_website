@@ -8,7 +8,7 @@ import SectionHeader from "components/section-header";
 
 export default function Banner2() {
   return (
-    <section sx={styles.banner} id="home">
+    <section sx={styles.banner} id="home2">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">

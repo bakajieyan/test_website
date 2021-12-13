@@ -13,17 +13,17 @@ export default [
     icon: <FiHome/>
   },
   {
-    path: 'feature',
+    path: 'home2',
     label: 'Features',
     icon: <FiPackage/>
   },
   {
-    path: 'pricing',
+    path: 'roadmap',
     label: 'Pricing',
     icon: <FiDollarSign/>
   },
   {
-    path: 'about',
+    path: 'team',
     label: 'About',
     icon: <FiInfo/>
   },

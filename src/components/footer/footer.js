@@ -13,38 +13,6 @@ export default function Footer() {
                         <Image src={FooterLogo} alt="Logo"/>
                     </Link>
                 </Box>
-                    <nav sx={styles.footer.menus.nav}>
-                    <a
-                    style={{ textDecoration: 'none', color: 'white', margin: '10px' }}
-                    href="https://www.facebook.com/ApeArmyGuild"
-                >
-                    <FaFacebook />
-                </a>
-                <a
-                    style={{ textDecoration: 'none', color: 'white', margin: '10px' }}
-                    href="https://twitter.com/ApeArmyGuild"
-                >
-                    <FaTwitter />
-                </a>
-                <a
-                    style={{ textDecoration: 'none', color: 'white', margin: '10px' }}
-                    href="https://www.instagram.com/dailygrindp2e/"
-                >
-                    <FaInstagram />
-                </a>
-                <a
-                    style={{ textDecoration: 'none', color: 'white', margin: '10px' }}
-                    href="https://t.me/+tMwdasxX3eU1NmQ1"
-                >
-                    <FaTelegram />
-                </a>
-                <a
-                    style={{ textDecoration: 'none', color: 'white', margin: '10px' }}
-                    href="https://discord.gg/pSePvYwDtB"
-                >
-                    <FaDiscord />
-                </a>
-                    </nav>
         </footer>
     );
 }
