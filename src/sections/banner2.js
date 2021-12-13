@@ -4,6 +4,7 @@ import { Container, Box, Heading, Text, Image, Button } from "theme-ui";
 import BannerImg from "assets/banner-thumb.png";
 import ShapeLeft from "assets/shape-left.png";
 import ShapeRight from "assets/shape-right.png";
+import SectionHeader from "components/section-header";
 
 export default function Banner2() {
   return (
@@ -12,13 +13,12 @@ export default function Banner2() {
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
             <u>
-              <i>Zero Coding Knowledge</i>
+              <i>Axie Scholar </i>
             </u>{" "}
-            <br></br>Art Generator
+            <br></br>Tracker
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Generate your 10,000 NFT Collection from an intuitive UI. We support
-            images, gifs and videos generative art!
+          Track all your scholars in one place. With our set of tools you can track multiple accounts daily SLP, win rate, amount of battles PVE and PVP, averge slp for each account to detect the less performance scholars, and much more coming!
           </Text>
           <Button vsrisnt="primary">Get Started</Button>
         </Box>

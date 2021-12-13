@@ -29,9 +29,6 @@ export default function CoreFeature() {
       </Box>
       <Box sx={styles.thumbnail}>
         <Image src={FeatureThumb} alt="Thumbnail" />
-        <Box sx={styles.shapeBox}>
-          <Image src={shapePattern} alt="Shape"/>
-        </Box>
       </Box>
     </Container>
    </section>
