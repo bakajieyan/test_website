@@ -13,6 +13,7 @@ import WorkFlow from '../sections/workflow';
 import Package from '../sections/package';
 import TeamSection from '../sections/team-section';
 import TestimonialCard from '../sections/testimonial';
+import Banner2 from 'sections/banner2';
 
 export default function IndexPage() {
   return (
@@ -20,14 +21,9 @@ export default function IndexPage() {
         <Layout>
           <SEO title="NextJS Landing Page" />
           <Banner />
-          <KeyFeature />
-          <ServiceSection />
-          <Feature />
-          <CoreFeature />
+          <Banner2 />
           <WorkFlow />
-          <Package />
           <TeamSection />
-          <TestimonialCard />
         </Layout>
     </ThemeProvider>
   );

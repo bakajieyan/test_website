@@ -43,7 +43,7 @@ export default function MobileDrawer() {
       width="320px"
       drawerHandler={
         <Box sx={styles.handler}>
-          <IoMdMenu size="26px" />
+          <IoMdMenu size="90px" />
         </Box>
       }
       open={isDrawerOpen}

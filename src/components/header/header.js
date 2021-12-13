@@ -3,7 +3,7 @@ import { jsx, Container, Flex, Button } from "theme-ui";
 import { keyframes } from "@emotion/core";
 import { Link } from "react-scroll";
 import Logo from "components/logo";
-import LogoDark from "assets/logo.svg";
+import LogoDark from "assets/logo2.png";
 import MobileDrawer from "./mobile-drawer";
 import menuItems from "./header.data";
 import {
@@ -34,13 +34,6 @@ export default function Header({ className }) {
               </Link>
             ))}
         </Flex>
-        <Button
-          className="donate__btn"
-          variant="secondary"
-          aria-label="Connect"
-        >
-          <FiZap />
-        </Button>
         <MobileDrawer/>
       </Container>
     </header>
@@ -69,7 +62,7 @@ const styles = {
     position: "absolute",
     top: 0,
     left: 0,
-    backgroundColor: "transparent",
+    backgroundColor: "#3A7CA5",
     transition: "all 0.4s ease",
     animation: `${positionAnim} 0.4s ease`,
     ".donate__btn": {
@@ -80,7 +73,7 @@ const styles = {
     "&.sticky": {
       position: "fixed",
       backgroundColor: "background",
-      color: "#000000",
+      color: "white",
       boxShadow: "0 1px 2px rgba(0, 0, 0, 0.06)",
       py: 3,
       "nev > a": {
@@ -107,10 +100,10 @@ const styles = {
       lineHeight: "1.2",
       transition: "all 0.15s",
       "&:hover": {
-        color: "primary",
+        color: "white",
       },
       "&.active": {
-        color: "primary",
+        color: "white",
       },
     },
   },

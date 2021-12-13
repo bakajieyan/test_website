@@ -108,7 +108,7 @@ export default function TestimonialCard() {
                     title="Meet The Clients Feedbacks to the Art Generator"
                 />
             </Container>
-            <Box sx={StyleSheet.carouselWrapper}>
+            <Box sx={styles.carouselWrapper}>
                 <Carousel {...carouselParams}>
                     {data.map((item) => (
                         <Box sx={styles.reviewCard}

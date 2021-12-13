@@ -5,7 +5,7 @@ import BannerImg from "assets/banner-thumb.png";
 import ShapeLeft from "assets/shape-left.png";
 import ShapeRight from "assets/shape-right.png";
 
-export default function Banner() {
+export default function Banner2() {
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
@@ -45,7 +45,6 @@ const styles = {
       width: "100%",
       zIndex: -1,
       backgroundRepeat: `no-repeat`,
-      backgroundColor: '#D9DCD6',
       backgroundPosition: "bottom left",
       backgroundSize: "36%",
     },
