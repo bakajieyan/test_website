@@ -1,11 +1,9 @@
 import {
   FiHome,
-  FiPackage,
-  FiDollarSign,
-  FiInfo,
-  FiZap,
+  FiBook,
+  FiInfo
 } from "react-icons/fi";
-
+import { CgToolbox } from "react-icons/cg";
 export default [
   {
     path: 'home',
@@ -15,12 +13,12 @@ export default [
   {
     path: 'home2',
     label: 'Tools',
-    icon: <FiPackage/>
+    icon: <CgToolbox/>
   },
   {
     path: 'roadmap',
     label: 'Roadmap',
-    icon: <FiDollarSign/>
+    icon: <FiBook/>
   },
   {
     path: 'team',
