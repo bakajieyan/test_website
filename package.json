@@ -4,11 +4,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages",
     "dev": "next dev",
     "build": "next build && next export",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap",
+    "deploy": "gh-pages -d build",
   },
   "dependencies": {
     "@next/env": "^12.0.7",
@@ -34,6 +33,7 @@
     "typeface-dm-sans": "^1.1.3"
   },
   "devDependencies": {
+    "babel-plugin-transform-define": "^2.0.1",
     "gh-pages": "^3.2.3",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
