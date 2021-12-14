@@ -14,17 +14,17 @@ export default [
   },
   {
     path: 'home2',
-    label: 'Features',
+    label: 'Tools',
     icon: <FiPackage/>
   },
   {
     path: 'roadmap',
-    label: 'Pricing',
+    label: 'Roadmap',
     icon: <FiDollarSign/>
   },
   {
     path: 'team',
-    label: 'About',
+    label: 'Team',
     icon: <FiInfo/>
   },
 ];

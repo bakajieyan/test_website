@@ -1,8 +1,9 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
+import { Link } from "react-scroll";
 import { Container, Box, Heading, Text, Image, Button } from "theme-ui";
 import TextFeature from 'components/text-feature';
-import FeatureThumb from 'assets/core-feature.png';
+import FeatureThumb from 'assets/logo5.png';
 import ShapeLeft from "assets/shape-left.png";
 import shapePattern from 'assets/shape-pattern2.png';
 import ShapeRight from "assets/shape-right.png";
@@ -14,6 +15,10 @@ const data = {
         'is a Organization where Developers, Investors, P2E Games, NFTs and Communities interact Together',
     btnName: 'Learn More',
     btnURL: '#',
+};
+
+const data2 = {
+    path:'roadmap'
 };
 
 export default function Banner() {
@@ -28,13 +33,21 @@ export default function Banner() {
                 </Box>
                 <br />
                 <Box sx={styles.banner.contentBox}>
-                    <Heading as="h1" variant="heroPrimary">
+                    <Heading as="h1" variant='heroPrimary'>
                         Ape Army Guild
           </Heading>
                     <Text as="p" variant="heroSecondary">
                         is a Organization where Developers, Investors, P2E Games, NFTs and Communities interact Together
           </Text>
-                    <Button vsrisnt="primary">Learn More</Button>
+                    <Button to='roadmap' variant="primary">
+                        <Link to={data2.path}
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}>
+                            Roadmap
+                        </Link>
+                    </Button>
                 </Box>
             </Container>
         </section>
@@ -56,7 +69,7 @@ const styles = {
             width: "100%",
             zIndex: -1,
             backgroundRepeat: `no-repeat`,
-            backgroundColor: '#D9DCD6',
+            backgroundColor: 'white',
             backgroundPosition: "bottom left",
             backgroundSize: "36%",
         },

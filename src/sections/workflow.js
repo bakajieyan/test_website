@@ -10,27 +10,111 @@ import ArrowEven from 'assets/arrowEven.svg';
 const data = [
     {
         id: 1,
-        title: 'Set disbursement Instructions',
+        title: 'PROJECT START',
         text:
-            'Get your blood tests delivered at home collect a sample from the your blood tests.',
+            '',
     },
     {
         id: 2,
-        title: 'Assembly retrieves funds from your account',
+        title: '600 Scholars and 60K Discord Members',
         text:
-            'Get your blood tests delivered at home collect a sample from the your blood tests.',
+            'Milestone 1',
     },
     {
         id: 3,
-        title: 'Assembly initiates disbursement',
+        title: 'Development Team Settlement',
         text:
-            'Get your blood tests delivered at home collect a sample from the your blood tests.',
+            'Milestone 2',
     },
     {
         id: 4,
-        title: 'Customer receives funds payment',
+        title: 'Landing Page Launch',
         text:
-            'Get your blood tests delivered at home collect a sample from the your blood tests.',
+            'Milestone 3',
+    },
+    {
+        id: 5,
+        title: 'Token Development',
+        text:
+            'Milestone 4',
+    },
+    {
+        id: 6,
+        title: 'Whitepaper Release',
+        text:
+            'Milestone 5',
+    },
+    {
+        id: 7,
+        title: 'Token Website Launch',
+        text:
+            'Milestone 6',
+    },
+    {
+        id: 8,
+        title: 'Token Launch',
+        text:
+            'Milestone 7',
+    },
+    {
+        id: 9,
+        title: 'Seed Investment Round',
+        text:
+            'Milestone 8',
+    },
+    {
+        id: 10,
+        title: 'Token Private Sale',
+        text:
+            'Milestone 9',
+    },
+    {
+        id: 11,
+        title: 'Token Public Sale',
+        text:
+            'Milestone 10',
+    },
+    {
+        id: 12,
+        title: 'Establishing AAG Headquarters',
+        text:
+            'Milestone 11',
+    },
+    {
+        id: 13,
+        title: 'Scale up 4K Scholars',
+        text:
+            'Milestone 12',
+    },
+    {
+        id: 14,
+        title: 'Partnership with Emerging Games',
+        text:
+            'Milestone 13',
+    },
+    {
+        id: 15,
+        title: 'Launch Token Staking',
+        text:
+            'Milestone 10',
+    },
+    {
+        id: 16,
+        title: 'Community Governance',
+        text:
+            'Milestone 10',
+    },
+    {
+        id: 17,
+        title: 'Token Burning',
+        text:
+            'Milestone 10',
+    },
+    {
+        id: 18,
+        title: 'Future Plans',
+        text:
+            '',
     },
 ];
 
@@ -39,8 +123,8 @@ export default function WorkFlow() {
         <section sx={styles.workflow} id="roadmap">
             <Container>
                 <SectionHeader
-                    slogan="How Does it Work?"
-                    title="Meet How It Works"
+                    slogan="Ape army guild roadmap"
+                    title="Meet How We Will Our Way"
                     isWhite={true}
                 />
                 <Grid sx={styles.grid}>
@@ -48,7 +132,7 @@ export default function WorkFlow() {
                         <Box sx={styles.card}
                             key={item.id}
                         >
-                            <Box sx={styles.iconBox}>{`0${item.id}`}</Box>
+                            <Box sx={styles.iconBox }>{`0${item.id}`}</Box>
                             <Box sx={styles.wrapper}>
                                 <Heading sx={styles.wrapper.title}>
                                     {item.title}

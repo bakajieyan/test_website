@@ -164,6 +164,22 @@ export default {
       fontWeight: 700,
       mb: [4, null, null, null, null, 5],
     },
+    heroPrimaryW: {
+        color: '#FFFFFF',
+        fontSize: [
+          '32px',
+          '36px',
+          '42px',
+          '40px',
+          '42px',
+          '52px',
+          '58px',
+          '66px',
+        ],
+        lineHeight: [1.3, null, null, null, null, 1.2],
+        fontWeight: 700,
+        mb: [4, null, null, null, null, 5],
+      },
     heroSecondary: {
       fontSize: [2, null, '17px', null, null, '19px', 4],
       lineHeight: [1.9, null, null, 2],
@@ -172,6 +188,14 @@ export default {
       px: [0, null, 5, 6, null, 8, 9],
       color: 'heading',
     },
+    heroSecondaryW: {
+        fontSize: [2, null, '17px', null, null, '19px', 4],
+        lineHeight: [1.9, null, null, 2],
+        fontWeight: 'body',
+        mb: 5,
+        px: [0, null, 5, 6, null, 8, 9],
+        color: 'white',
+      },
     title: {
       // extends the text.heading styles
       variant: 'text.heading',
