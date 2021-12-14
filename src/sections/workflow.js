@@ -132,7 +132,7 @@ export default function WorkFlow() {
                         <Box sx={styles.card}
                             key={item.id}
                         >
-                            <Box sx={styles.iconBox }>{`0${item.id}`}</Box>
+                            <Box sx={styles.iconBox }>{`${item.id}`}</Box>
                             <Box sx={styles.wrapper}>
                                 <Heading sx={styles.wrapper.title}>
                                     {item.title}

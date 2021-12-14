@@ -3,7 +3,7 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import TeamCard from 'components/team-card';
-import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram, FaTelegram } from 'react-icons/fa';
 
 import Member1 from 'assets/team/prof.png';
 import Member2 from 'assets/team/kaido.png';
@@ -23,19 +23,19 @@ const data = [
             {
                 id: 1,
                 name: 'facebook',
-                path: '#',
+                path: 'https://www.facebook.com/dailygrindAA/',
                 icon: <FaFacebookF />,
             },
             {
                 id: 2,
                 name: 'twitter',
-                path: '#',
+                path: 'https://twitter.com/SignalsSeer',
                 icon: <FaTwitter />,
             },
             {
                 id: 3,
                 name: 'instagram',
-                path: '#',
+                path: 'https://www.instagram.com/dailygrindp2e/',
                 icon: <FaInstagram />,
             },
         ],
@@ -50,20 +50,20 @@ const data = [
             {
                 id: 1,
                 name: 'facebook',
-                path: '#',
+                path: 'https://www.facebook.com/FrenchxQuilla',
                 icon: <FaFacebookF />,
             },
             {
                 id: 2,
                 name: 'twitter',
-                path: '#',
+                path: 'https://twitter.com/FrenchxQuilla',
                 icon: <FaTwitter />,
             },
             {
                 id: 3,
-                name: 'instagram',
-                path: '#',
-                icon: <FaInstagram />,
+                name: 'telegram',
+                path: 'https://t.me/KaidoxAAG',
+                icon: <FaTelegram />,
             },
         ],
     },
@@ -77,20 +77,20 @@ const data = [
             {
                 id: 1,
                 name: 'facebook',
-                path: '#',
+                path: 'https://www.facebook.com/joshua.quintano.9',
                 icon: <FaFacebookF />,
             },
             {
                 id: 2,
                 name: 'twitter',
-                path: '#',
+                path: 'https://twitter.com/Josh08274298?t=miJPGDmgL4wJFI80qVdx1w&s=09',
                 icon: <FaTwitter />,
             },
             {
                 id: 3,
-                name: 'instagram',
-                path: '#',
-                icon: <FaInstagram />,
+                name: 'telegram',
+                path: 'https://www.facebook.com/joshua.quintano.9',
+                icon: <FaTelegram />,
             },
         ],
     },
@@ -104,20 +104,14 @@ const data = [
             {
                 id: 1,
                 name: 'facebook',
-                path: '#',
+                path: 'https://facebook.com/28Nobody',
                 icon: <FaFacebookF />,
             },
             {
                 id: 2,
                 name: 'twitter',
-                path: '#',
+                path: 'https://twitter.com/BrentMartinDego',
                 icon: <FaTwitter />,
-            },
-            {
-                id: 3,
-                name: 'instagram',
-                path: '#',
-                icon: <FaInstagram />,
             },
         ],
     },
@@ -131,20 +125,20 @@ const data = [
             {
                 id: 1,
                 name: 'facebook',
-                path: '#',
+                path: 'https://www.facebook.com/xxveem/',
                 icon: <FaFacebookF />,
             },
             {
                 id: 2,
                 name: 'twitter',
-                path: '#',
+                path: 'https://twitter.com/kitchiedee',
                 icon: <FaTwitter />,
             },
             {
                 id: 3,
-                name: 'instagram',
-                path: '#',
-                icon: <FaInstagram />,
+                name: 'telegram',
+                path: 'https://t.me/engryuki',
+                icon: <FaTelegram />,
             },
         ],
     },
@@ -158,20 +152,26 @@ const data = [
             {
                 id: 1,
                 name: 'facebook',
-                path: '#',
+                path: 'https://www.facebook.com/LoisaGatchalian',
                 icon: <FaFacebookF />,
             },
             {
                 id: 2,
                 name: 'twitter',
-                path: '#',
+                path: 'https://twitter.com/LoisaGatchalian?t=qqjKAVMZ4LYpYhljxS9YGA&s=09',
                 icon: <FaTwitter />,
             },
             {
                 id: 3,
                 name: 'instagram',
-                path: '#',
+                path: 'http://instagram.com/iamloisagatchalian',
                 icon: <FaInstagram />,
+            },
+            {
+                id: 4,
+                name: 'telegram',
+                path: 'https://t.me/loisagatchalian',
+                icon: <FaTelegram />
             },
         ],
     },
