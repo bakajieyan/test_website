@@ -27,7 +27,7 @@ export default function Banner2() {
                             smooth={true}
                             offset={-70}
                             duration={500}>
-                            Roadmap
+                            Use Tool
                         </Link>
                     </Button>
                 </Box>
