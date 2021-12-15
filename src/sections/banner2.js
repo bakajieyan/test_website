@@ -22,7 +22,7 @@ export default function Banner2() {
                     Track all your scholars in one place. With our set of tools, you can track multiple accounts on their SLP daily average, win rates, amount of battles in PVE and PVP for player management. More management tools to come.
                         </Text>
                     <Button variant="primary">
-                        <Link to="roadmap"
+                        <Link to="/tracker"
                             spy={true}
                             smooth={true}
                             offset={-70}

@@ -19,7 +19,7 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
         <Layout>
-          <SEO title="NextJS Landing Page" />
+          <SEO title="Ape Army Guild" />
           <Banner />
           <Banner2 />
           <WorkFlow />

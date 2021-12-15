@@ -2,10 +2,10 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'startup product landing page',
+  description = 'Ape Army Guild is a Decentralized Autonomous Organization where creators, investors, P2E games, NFTs and Communities interact together',
   author = 'JSM',
   meta,
-  title = 'startup landing title',
+  title = 'Ape Army Guild is a Decentralized Autonomous Organization where creators, investors, P2E games, NFTs and Communities interact together',
 }) {
   const metaData = [
     {
