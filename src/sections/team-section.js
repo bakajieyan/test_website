@@ -29,7 +29,7 @@ const data = [
             {
                 id: 2,
                 name: 'twitter',
-                path: 'https://twitter.com/SignalsSeer',
+                path: 'https://twitter.com/P2E_Daily',
                 icon: <FaTwitter />,
             },
             {

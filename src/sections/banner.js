@@ -12,7 +12,7 @@ const data = {
     subTitle: 'Core features',
     title: 'Ape Army Guild',
     description:
-        'is a Organization where Developers, Investors, P2E Games, NFTs and Communities interact Together',
+        'Ape Army Guild is a Decentralized Autonomous Organization where creators, investors, P2E games, NFTs and Communities interact together',
     btnName: 'Learn More',
     btnURL: '#',
 };
@@ -37,8 +37,7 @@ export default function Banner() {
                         Ape Army Guild
           </Heading>
                     <Text as="p" variant="heroSecondary">
-                        is a Organization where Developers, Investors, P2E Games, NFTs and Communities interact Together
-          </Text>
+                    Ape Army Guild is a Decentralized Autonomous Organization where creators, investors, P2E games, NFTs and Communities interact together</Text>
                     <Button to='roadmap' variant="primary">
                         <Link to={data2.path}
                             spy={true}

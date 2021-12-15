@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport { FaStar } from 'react-icons/fa';\n\nconst Rating = ({\n  rating\n}) => {\n  return __jsx(\"h1\", null, \"Rating\");\n};\n\nexport default Rating;","map":null,"metadata":{},"sourceType":"module"}
